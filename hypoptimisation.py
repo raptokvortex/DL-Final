@@ -12,13 +12,13 @@ from keras.regularizers import l2
 
 # Import the preprocessed data
 
-X_train = pd.read_csv('stock_2_training.csv')
+X_train = pd.read_csv('all_training.csv')
 
-Y_train = pd.read_csv('stock_2_trainingobjective.csv')
+Y_train = pd.read_csv('all_trainingobjective.csv')
 
-X_val = pd.read_csv('stock_2_test.csv')
+X_val = pd.read_csv('all_test.csv')
 
-Y_val = pd.read_csv('stock_2_testobjective.csv')
+Y_val = pd.read_csv('all_testobjective.csv')
 
 print(X_train.head())
 print(Y_train.head())
